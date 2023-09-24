@@ -1,6 +1,48 @@
-body{
 
+img{
+    width: 1440px;
+    height:600px;
 }
+nav{
+    background-color: rgb(182, 227, 255);
+    margin: 0;
+    padding-left: 60px;
+    padding-right: 1019px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    float: left;
+    }
+nav a{ /* styrer redigeringen av alle <a>-ene i <nav>*/
+        display: inline; /* gjør slik at knappene i navbaren ligger ved siden av hverandre på rekke*/
+        color:black; /*Fargen til teksten inni navbaren*/
+        text-align: center;/*Gjør slik at teksten ligger i midten av knappen og ikke ligger til venstre eller høyre */
+        padding: 30px 60px; /* paddingen skaper avstanden mellom teksten og kantene til knappen */
+        text-decoration: none;
+    }
+nav a:hover{
+        background-color: rgb(149, 205, 240); /* fargen som dukker opp når musa er over knappene i navbaren*/
+    }
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
+
 footer{
     background-color: rgb(182, 227, 255);
+    padding: 30px;
+    
 }
+.mail footer{
+
+
+}
+
