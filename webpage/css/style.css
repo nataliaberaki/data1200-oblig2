@@ -1,18 +1,22 @@
 
-img{
+.data1200 img{/*høyde pg bredde til bilde over navbaren på secondpage*/
     width: 1440px;
     height:600px;
 }
+
+
 nav{
-    background-color: rgb(182, 227, 255);
+    background-color: rgb(182, 227, 255);/*Fargen til navbaren*/
     margin: 0;
-    padding-left: 60px;
-    padding-right: 1019px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-left: 60px;/*avstand mellom tekst og venstre kant*/
+    padding-right: 1019px;/*avstand mellom tekst og høyre kant*/
+    padding-top: 15px;/*avstand mellom tekst og topp kanten*/
+    padding-bottom: 15px;/*avstand mellom tekst og bunnen av boksen*/
     overflow: hidden;
     float: left;
     }
+
+
 nav a{ /* styrer redigeringen av alle <a>-ene i <nav>*/
         display: inline; /* gjør slik at knappene i navbaren ligger ved siden av hverandre på rekke*/
         color:black; /*Fargen til teksten inni navbaren*/
@@ -20,14 +24,15 @@ nav a{ /* styrer redigeringen av alle <a>-ene i <nav>*/
         padding: 30px 60px; /* paddingen skaper avstanden mellom teksten og kantene til knappen */
         text-decoration: none;
     }
+
+
 nav a:hover{
         background-color: rgb(149, 205, 240); /* fargen som dukker opp når musa er over knappene i navbaren*/
     }
 
 body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;/*font på sidene */
 }
 
 
@@ -38,22 +43,27 @@ main{
     margin-top: 100px;
 }
 
+
 p{
-    line-height: 3;
+    line-height: 3;/*skaper en stor linje avstand mellom alle p elementene*/
 }
+
 
 li{
-    line-height: 2;
-    padding-inline-start: 40px;
+    line-height: 2;/* linje avstanden mellom alle <li> ettersom at like stor avstand ikke trengs*/
+    padding-inline-start: 40px; /*gjør slik at punktene starter lenger inn på siden*/
 }
 
+
 footer{
-    background-color: rgb(182, 227, 255);
-    padding: 30px;
+    background-color: rgb(182, 227, 255);/*farge i footer*/
+    padding: 30px;/*skaper avstand mellom tekst og kant*/
     
 }
+
+
 .footer{
-line-height: 1;
+line-height: 1; /*stor avstand mellom <p> i footer er ikke nødvendig*/
 
 }
 
