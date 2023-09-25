@@ -1,12 +1,19 @@
 
-.data1200 img{/*høyde pg bredde til bilde over navbaren på secondpage*/
+.data1200 img{
     width: 1440px;
     height:600px;
 }
 
 
+/*.data1200 img{
+    width: 150px;
+    height: 900px;
+}*/
+
+
 nav{
-    background-color: rgb(182, 227, 255);/*Fargen til navbaren*/
+    /*background-color: rgb(182, 227, 255);Fargen til navbaren*/
+    background-color: rgb(255, 136, 0);
     margin: 0;
     padding-left: 60px;/*avstand mellom tekst og venstre kant*/
     padding-right: 1019px;/*avstand mellom tekst og høyre kant*/
@@ -27,7 +34,8 @@ nav a{ /* styrer redigeringen av alle <a>-ene i <nav>*/
 
 
 nav a:hover{
-        background-color: rgb(149, 205, 240); /* fargen som dukker opp når musa er over knappene i navbaren*/
+        /*background-color: rgb(149, 205, 240);  fargen som dukker opp når musa er over knappene i navbaren*/
+        background-color: rgb(216, 122, 14);
     }
 
 body{
@@ -56,7 +64,8 @@ li{
 
 
 footer{
-    background-color: rgb(182, 227, 255);/*farge i footer*/
+    background-color: rgb(255, 136, 0);
+    /*background-color: rgb(182, 227, 255);farge i footer*/
     padding: 30px;/*skaper avstand mellom tekst og kant*/
     
 }
@@ -67,3 +76,6 @@ line-height: 1; /*stor avstand mellom <p> i footer er ikke nødvendig*/
 
 }
 
+@media(min-width: 800px){
+   
+}
