@@ -67,7 +67,7 @@ line-height: 1; /*stor avstand mellom <p> i footer er ikke nødvendig*/
 
 }
 
-@media(min-width: 800px){
+@media(min-width: 800px){ /*når netsiden har størrelse på 800px vil bildet ha 200px høyde og 400px lengde*/
     header img{
         height: 200px;
         width: 400px;
