@@ -1,15 +1,8 @@
 
-.data1200 img{
+.data1200{/*høyde og bredde på bildet på toppen av second page siden*/
+    height: 600px;
     width: 1440px;
-    height:600px;
 }
-
-
-/*.data1200 img{
-    width: 150px;
-    height: 900px;
-}*/
-
 
 nav{
     /*background-color: rgb(182, 227, 255);Fargen til navbaren*/
@@ -46,10 +39,7 @@ body{
 
 
 main{
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-bottom: 60px;
-    margin-top: 100px;
+    margin: 100px;
 }
 
 .container {
@@ -101,8 +91,9 @@ li{
 footer{
     background-color: rgb(255, 136, 0);
     /*background-color: rgb(182, 227, 255);farge i footer*/
-    padding: 30px;/*skaper avstand mellom tekst og kant*/
-    
+    padding-left: 50px;/*skaper avstand mellom tekst og kant*/
+    padding-top: 30px;
+    padding-bottom: 30px;;
 }
 
 
@@ -111,6 +102,9 @@ line-height: 1; /*stor avstand mellom <p> i footer er ikke nødvendig*/
 
 }
 
-@media(min-width: 800px){
-   
+@media(min-width: 800px){ /*når netsiden har størrelse på 800px vil bildet ha 200px høyde og 400px lengde*/
+    header img{
+        height: 200px;
+        width: 400px;
+    }
 }
