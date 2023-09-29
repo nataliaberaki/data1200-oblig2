@@ -80,11 +80,6 @@ header { /* style på <header> på first-page */
     margin-bottom: 10px;
 }
 
-#author-name {
-    font-weight: bold;
-    color: red;
-}
-
 .article-paragraph {
     line-height: 1.5;
     margin-bottom: 20px;
