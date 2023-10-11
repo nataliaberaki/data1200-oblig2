@@ -4,6 +4,11 @@
     width: 1440px;
 }
 
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
 nav{
     /*background-color: rgb(182, 227, 255);Fargen til navbaren*/
     background-color: rgb(255, 136, 0);
@@ -42,40 +47,6 @@ main{
     margin: 100px;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-header { /* style på <header> på first-page */
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.article-title {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-.sub-title {
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: #666;
-}
-
-.sub-heading {
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-.article-paragraph {
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
-
 
 p{
     line-height: 3;/*skaper en stor linje avstand mellom alle p elementene*/
@@ -107,3 +78,5 @@ line-height: 1; /*stor avstand mellom <p> i footer er ikke nødvendig*/
         
     }
 }
+
+
