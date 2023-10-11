@@ -47,46 +47,6 @@ main{
     margin: 100px;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-header { /* style på <header> på first-page */
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.article-title {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-.sub-title {
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: #666;
-}
-
-.sub-heading {
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-.article-paragraph {
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
-
-.data1200-article-image{
-    height: 700px;
-    width: 1000px;
-    
-}
-
 p{
     line-height: 3;/*skaper en stor linje avstand mellom alle p elementene*/
 }
@@ -118,3 +78,5 @@ line-height: 1; /*stor avstand mellom <p> i footer er ikke nødvendig*/
         width: 400px;
     }
 }
+
+
