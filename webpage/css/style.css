@@ -1,20 +1,16 @@
 
 .data1200{/*høyde og bredde på bildet på toppen av second page siden*/
     height: 600px;
-    width: 1440px;
+    width: 1680px;
 }
 
-.logo{
-    height: 50px;
-    width: 50px;
-}
 
 nav{
     /*background-color: rgb(182, 227, 255);Fargen til navbaren*/
     background-color: rgb(255, 136, 0);
     margin: 0;
     padding-left: 60px;/*avstand mellom tekst og venstre kant*/
-    padding-right: 1019px;/*avstand mellom tekst og høyre kant*/
+    padding-right: 1257px;/*avstand mellom tekst og høyre kant*/
     padding-top: 15px;/*avstand mellom tekst og topp kanten*/
     padding-bottom: 15px;/*avstand mellom tekst og bunnen av boksen*/
     overflow: hidden;
@@ -44,6 +40,7 @@ body{
 
 
 main{
+    padding-top: 30px;
     margin: 100px;
 }
 
@@ -56,6 +53,25 @@ p{
 li{
     line-height: 2;/* linje avstanden mellom alle <li> ettersom at like stor avstand ikke trengs*/
     padding-inline-start: 40px; /*gjør slik at punktene starter lenger inn på siden*/
+}
+
+.article-title{
+    
+}
+
+.sub-heading{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.article-paragraph{
+    line-height: 2,5;
+
+}
+
+.article-image{
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 
@@ -73,10 +89,31 @@ line-height: 1; /*stor avstand mellom <p> i footer er ikke nødvendig*/
 
 }
 
-@media(min-width: 1000px){ /*når netsiden har størrelse på ...............*/
-    #header navn{ 
-        
+ .advertisement {
+        position: absolute;
+        top: 20px; 
+        right: 20px; 
+        background-color: white;
+        padding: 10px;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 400;
     }
-}
+    
+    .close-button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+    
+    .close-button:hover {
+        color: red;
+    }
+    
+    .advertisement img {
+        width: 100%; 
+    }
 
 
