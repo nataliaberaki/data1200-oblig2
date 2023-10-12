@@ -74,7 +74,7 @@ line-height: 1; /*stor avstand mellom <p> i footer er ikke nødvendig*/
 }
 
 @media(min-width: 1000px){ /*når netsiden har størrelse på ...............*/
-    #header nav{
+    #header navn{ 
         
     }
 }
