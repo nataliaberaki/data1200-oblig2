@@ -14,7 +14,6 @@ nav{
     padding-top: 15px;/*avstand mellom tekst og topp kanten*/
     padding-bottom: 15px;/*avstand mellom tekst og bunnen av boksen*/
     overflow: hidden;
-    float: left;
     }
 
 
@@ -86,7 +85,7 @@ li{
 }
 
 .article-image {
-    width: 75%;
+    width: ;
 }
 
 .author-info {
