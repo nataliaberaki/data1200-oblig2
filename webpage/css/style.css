@@ -147,8 +147,8 @@ line-height: 1.5; /*stor avstand mellom <p> i footer er ikke nødvendig*/
 }
 
 .advertisement img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 60;
+    max-height: 60%;
 }
 
 .close-button {
