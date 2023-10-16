@@ -3,11 +3,8 @@ nav{
     /*background-color: rgb(182, 227, 255);Fargen til navbaren*/
     background-color: rgb(255, 136, 0);
     margin: 0;
-    width: 100%;
-    padding-left: 60px;/*avstand mellom tekst og venstre kant*/
-    padding-right: 10px;/*avstand mellom tekst og høyre kant*/
-    padding-top: 15px;/*avstand mellom tekst og topp kanten*/
-    padding-bottom: 15px;/*avstand mellom tekst og bunnen av boksen*/
+    width: 100%;/*gjør slik at navbaren strekker seg ut fra ver side*/
+    padding: 15px;
     overflow: hidden;
     position: fixed;/*posisjonen til navbaren flytter seg ikke når man blar*/
     }
