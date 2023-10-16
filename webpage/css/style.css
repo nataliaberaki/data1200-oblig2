@@ -1,13 +1,9 @@
 
 .data1200{/*høyde og bredde på bildet på toppen av second page siden*/
-    height: 600px;
+    height: 500px;
     width: 1440px;
 }
 
-.logo{
-    height: 50px;
-    width: 50px;
-}
 
 nav{
     /*background-color: rgb(182, 227, 255);Fargen til navbaren*/
@@ -36,14 +32,19 @@ nav a:hover{
         background-color: rgb(216, 122, 14);
     }
 
+body, h1, h2, p, span {
+        margin: 0;
+        padding: 0;
+
+    }
+
 body{
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;/*font på sidene */
-    padding: 0;
 }
 
 
 main{
+    padding-top: 30px;
     margin: 100px;
 }
 
@@ -58,6 +59,69 @@ li{
     padding-inline-start: 40px; /*gjør slik at punktene starter lenger inn på siden*/
 }
 
+.article-container { /* Denne lager en container for artikkelen*/
+    width: 70%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.article-title {
+    margin-top: 80px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.sub-image {
+    width: 20%;
+}
+
+.article-sub-image {
+    width: 60%;
+}
+
+.article-image {
+    width: 75%;
+}
+
+.author-info {
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#author {
+    font-weight: bold;
+    color: red;
+
+}
+
+.grid-container { /* grid for innhold i artikkelen */
+    display: grid;
+    grid-template-columns: 1fr; /* gjør sånn at det bare er en kolonne */
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.article-paragraph{
+    line-height: 2,5;
+    width: 60%;
+
+}
+
+.sub-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 60%;
+}
+
 
 footer{
     background-color: rgb(255, 136, 0);
@@ -69,23 +133,17 @@ footer{
 
 
 .footer{
-line-height: 1; /*stor avstand mellom <p> i footer er ikke nødvendig*/
+line-height: 1.5; /*stor avstand mellom <p> i footer er ikke nødvendig*/
 
-}
-
-@media(min-width: 1000px){ /*når netsiden har størrelse på ...............*/
-    #header nav{
-        
-    }
 }
 .Reklamen {
     position: fixed;
-    top: 10px; /* Adjust top distance as needed */
-    right: 10px; /* Adjust right distance as needed */
-    width: 200px; /* Adjust width as needed */
-    height: 200px; /* Adjust height as needed */
-    background-color: #f0f0f0; /* Background color for the ad container */
-    border: 1px solid #ccc; /* Optional: Border for the ad container */
+    top: 10px; 
+    right: 10px;
+    width: 200px; 
+    height: 200px;
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
     padding: 10px;
 }
 
@@ -101,8 +159,9 @@ line-height: 1; /*stor avstand mellom <p> i footer er ikke nødvendig*/
     cursor: pointer;
 }
 
-/* Optional: Style the close button */
+
 .close-button:hover {
     color: red;
 }
+
 
