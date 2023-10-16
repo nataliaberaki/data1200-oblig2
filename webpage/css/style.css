@@ -62,7 +62,6 @@ li{
     width: 70%;
     margin: 20px;
     padding: 20px;
-    align-items: center;
 }
 
 .article-title {
@@ -73,7 +72,6 @@ li{
 
 .article-image {
     width: 100%;
-    align-items: center;
 }
 
 .sub-title {
