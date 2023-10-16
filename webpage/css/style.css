@@ -137,13 +137,13 @@ line-height: 1.5; /*stor avstand mellom <p> i footer er ikke nødvendig*/
 }
 .advertisement {
     position:fixed;
-    top: 50%; /* Adjust top distance as needed */
-    right: -10%; /* Adjust right distance as needed */
-    width: 200px; /* Adjust width as needed */
-    height: 200px; /* Adjust height as needed */
-    background-color: #f0f0f0; /* Background color for the ad container */
-    border: 1px solid #ccc; /* Optional: Border for the ad container */
-    padding: 10px;
+    top: 50%; /* avstand på toppen */
+    right: -10%; /* avstand fra høyre side */
+    width: 200px; /* justerer på bredden */
+    height: 200px; /* justerer på høyden*/
+    background-color: #f0f0f0; /* bakggrunnsfargen på divboksen rundt/under bildet */
+    border: 1px solid #ccc; /* en border rundt reklamen  */
+    padding: 10px;/* avstanden fra bilde/ tekst og kanten av boksen*/
     transform: translate(-90%);
 
 }
