@@ -138,7 +138,7 @@ line-height: 1.5; /*stor avstand mellom <p> i footer er ikke nødvendig*/
 .advertisement {
     position: fixed;
     top: 10px; 
-    right: 10px;
+    left: 10px;
     width: 200px; 
     height: 200px; 
     background-color: #f0f0f0; 
@@ -151,14 +151,6 @@ line-height: 1.5; /*stor avstand mellom <p> i footer er ikke nødvendig*/
     max-height: 100%;
 }
 
-.close-button {
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    cursor: pointer;
-}
-
-
-.close-button:hover {
-    color: red;
+.reklame-tekst{
+    color:#666;
 }
