@@ -34,7 +34,6 @@ nav a:hover{
 body, h1, h2, p, span {
         margin: 0;
         padding: 0;
-
     }
 
 body{
@@ -43,19 +42,29 @@ body{
 
 
 main{
-    padding-top: 30px;
     margin: 100px;
 }
 
-
-p{
-    line-height: 3;/*skaper en stor linje avstand mellom alle p elementene*/
+h1, h2{
+    line-height: 2;
 }
-
+p{
+     line-height: 3;/*skaper en stor linje avstand mellom alle p elementene*/
+}
 
 li{
     line-height: 2;/* linje avstanden mellom alle <li> ettersom at like stor avstand ikke trengs*/
     padding-inline-start: 40px; /*gjør slik at punktene starter lenger inn på siden*/
+}
+
+#author {
+    font-weight: bold;
+    color: red;
+}
+
+#dato-informasjon{
+    font-size: small;
+    color: #666;
 }
 
 .article-container { /* Denne lager en container for artikkelen*/
@@ -65,7 +74,6 @@ li{
 }
 
 .article-title {
-    margin-top: 80px;
     font-size: 30px;
     margin-bottom: 10px;
 }
@@ -85,7 +93,7 @@ li{
 }
 
 .article-image {
-    width: 700px;
+    width: 1000px;
 }
 
 .author-info {
@@ -94,11 +102,6 @@ li{
     margin-bottom: 20px;
 }
 
-#author {
-    font-weight: bold;
-    color: red;
-
-}
 
 .grid-container { /* grid for innhold i artikkelen */
     display: grid;
@@ -107,6 +110,10 @@ li{
     align-items: center;
 }
 
+.image-description{
+    font-size: small;
+    color: #666;
+}
 .article-paragraph{
     line-height: 2,5;
     width: 60%;
@@ -120,6 +127,7 @@ li{
     margin-bottom: 10px;
     width: 60%;
 }
+
 
 
 footer{
@@ -151,5 +159,8 @@ line-height: 1.5; /*stor avstand mellom <p> i footer er ikke nødvendig*/
 .advertisement img {
     max-width: 100%;
     max-height: 100%;
+}
+.advertisement a:hover{
+    color:#42614c;
 }
 
