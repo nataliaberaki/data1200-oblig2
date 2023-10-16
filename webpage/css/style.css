@@ -95,9 +95,10 @@ li{
     margin-bottom: 20px;
 }
 
-.author {
+#author {
     font-weight: bold;
     color: red;
+
 }
 
 .grid-container { /* grid for innhold i artikkelen */
