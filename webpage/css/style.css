@@ -137,20 +137,17 @@ line-height: 1.5; /*stor avstand mellom <p> i footer er ikke nødvendig*/
 }
 .advertisement {
     position: fixed;
-    top: 10px; 
-    left: 10px;
-    width: 200px; 
-    height: 200px; 
-    background-color: #f0f0f0; 
-    border: 1px solid #ccc; 
+    top: 10px; /* Adjust top distance as needed */
+    right: 10px; /* Adjust right distance as needed */
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    background-color: #f0f0f0; /* Background color for the ad container */
+    border: 1px solid #ccc; /* Optional: Border for the ad container */
     padding: 10px;
 }
 
 .advertisement img {
-    max-width: 60;
-    max-height: 60%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.reklame-tekst{
-    color:#666;
-}
