@@ -135,20 +135,20 @@ footer{
 line-height: 1.5; /*stor avstand mellom <p> i footer er ikke nødvendig*/
 
 }
-.Reklamen {
+.advertisement {
     position: fixed;
     top: 10px; 
     right: 10px;
     width: 200px; 
-    height: 200px;
+    height: 200px; 
     background-color: #f0f0f0; 
     border: 1px solid #ccc; 
     padding: 10px;
 }
 
-.Reklamen img {
-    max-width: 80;
-    max-height: 80%;
+.advertisement img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .close-button {
@@ -162,15 +162,3 @@ line-height: 1.5; /*stor avstand mellom <p> i footer er ikke nødvendig*/
 .close-button:hover {
     color: red;
 }
-.article-image{
-    max-width: 20;
-    height: auto;
-    filter: grayscale(100);
-    border-radius: 50;
-}
-.article-image2{
-    max-width: 100;
-    height: auto;
-}
-
-
