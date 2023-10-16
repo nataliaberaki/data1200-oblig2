@@ -63,7 +63,7 @@ li{
     padding-inline-start: 40px; /*gjør slik at punktene starter lenger inn på siden*/
 }
 
-#author {
+#author-name {
     font-weight: bold;
     color: red;
 }
