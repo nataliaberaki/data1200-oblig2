@@ -122,7 +122,7 @@ footer{
 
 
 .footer{
-line-height: 1; /*stor avstand mellom <p> i footer er ikke nødvendig*/
+line-height: 1.5; /*stor avstand mellom <p> i footer er ikke nødvendig*/
 
 }
 
