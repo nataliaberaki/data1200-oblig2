@@ -35,7 +35,7 @@ body{
 
 .data1200{/*høyde og bredde på bildet på toppen av second page siden*/
     height: 500px;
-    width: 1440px;
+    width: 100%;
 }
 
 
@@ -141,9 +141,8 @@ li{
 footer{
     background-color: rgb(255, 136, 0);
     /*background-color: rgb(182, 227, 255);farge i footer*/
-    padding-left: 50px;/*skaper avstand mellom tekst og kant*/
-    padding-top: 30px;
-    padding-bottom: 30px;;
+    width: 100%;
+    padding: 30px;
 }
 
 
@@ -169,6 +168,6 @@ line-height: 1.5; /*stor avstand mellom <p> i footer er ikke nødvendig*/
     max-height: 100%;
 }
 .advertisement a:hover{
-    color:#42614c;
+    color:#ba0a13;
 }
 
