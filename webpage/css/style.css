@@ -162,5 +162,15 @@ line-height: 1.5; /*stor avstand mellom <p> i footer er ikke nødvendig*/
 .close-button:hover {
     color: red;
 }
+.article-image{
+    max-width: 20;
+    height: auto;
+    filter: grayscale(100);
+    border-radius: 50;
+}
+.article-image2{
+    max-width: 100;
+    height: auto;
+}
 
 
