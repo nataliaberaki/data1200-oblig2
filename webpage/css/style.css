@@ -32,10 +32,13 @@ nav a:hover{
         background-color: rgb(216, 122, 14);
     }
 
+    body, h1, h2, p, img, span {
+        margin: 0;
+        padding: 0;
+    }
+
 body{
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;/*font på sidene */
-    padding: 0;
 }
 
 
@@ -55,13 +58,37 @@ li{
     padding-inline-start: 40px; /*gjør slik at punktene starter lenger inn på siden*/
 }
 
-.article-title{
-    
+.article-container { /* Denne lager en container for artikkelen*/
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.sub-heading{
-    padding-top: 30px;
-    padding-bottom: 30px;
+.article-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.author-info {
+    text-align: right;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.grid-container { /* grid for innhold i artikkelen */
+    display: grid;
+    grid-template-columns: 1fr; /* gjør sånn at det bare er en kolonne */
+    grid-gap: 20px;
 }
 
 .article-paragraph{
@@ -69,9 +96,11 @@ li{
 
 }
 
-.article-image{
-    padding-top: 20px;
-    padding-bottom: 30px;
+.sub-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 
