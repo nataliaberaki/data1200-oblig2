@@ -35,6 +35,7 @@ nav a:hover{
 body, h1, h2, p, span {
         margin: 0;
         padding: 0;
+
     }
 
 body{
@@ -103,7 +104,6 @@ li{
     display: grid;
     grid-template-columns: 1fr; /* gjør sånn at det bare er en kolonne */
     grid-gap: 20px;
-    margin: 40px;
     align-items: center;
 }
 
