@@ -1,10 +1,4 @@
 
-.data1200{/*høyde og bredde på bildet på toppen av second page siden*/
-    height: 500px;
-    width: 1440px;
-}
-
-
 nav{
     /*background-color: rgb(182, 227, 255);Fargen til navbaren*/
     background-color: rgb(255, 136, 0);
@@ -39,6 +33,11 @@ body, h1, h2, p, span {
 
 body{
     font-family: Arial, Helvetica, sans-serif;/*font på sidene */
+}
+
+.data1200{/*høyde og bredde på bildet på toppen av second page siden*/
+    height: 500px;
+    width: 1440px;
 }
 
 
