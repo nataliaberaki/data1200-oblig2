@@ -80,6 +80,14 @@ li{
     color: #666;
 }
 
+.sub-image {
+    width: 20%;
+}
+
+.article-image {
+    width: 100%;
+}
+
 .author-info {
     text-align: left;
     font-style: italic;
