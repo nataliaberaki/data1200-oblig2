@@ -24,6 +24,30 @@ nav a:hover{
         background-color: rgb(216, 122, 14);
     }
 
+   .VG-nav{
+        /*background-color: rgb(182, 227, 255);Fargen til navbaren*/
+        background-color: rgb(220, 0, 0);
+        margin: 0;
+        width: 100%;/*gjør slik at navbaren strekker seg ut fra ver side*/
+        padding: 15px;
+        overflow: hidden;
+        position: fixed;/*posisjonen til navbaren flytter seg ikke når man blar*/
+        }
+    
+    
+    .VG-nav a{ /* styrer redigeringen av alle <a>-ene i <nav>*/
+            display: inline; /* gjør slik at knappene i navbaren ligger ved siden av hverandre på rekke*/
+            color:rgb(255, 255, 255); /*Fargen til teksten inni navbaren*/
+            text-align: center;/*Gjør slik at teksten ligger i midten av knappen og ikke ligger til venstre eller høyre */
+            padding: 30px 60px; /* paddingen skaper avstanden mellom teksten og kantene til knappen */
+            text-decoration: none;
+        }
+    
+    
+    .VG-nav a:hover{
+            /*background-color: rgb(149, 205, 240);  fargen som dukker opp når musa er over knappene i navbaren*/
+            background-color: rgb(164, 3, 3);
+        }
 
 body, h1, h2, p, span {
         margin: 0;
@@ -144,6 +168,13 @@ footer{
     /*background-color: rgb(182, 227, 255);farge i footer*/
     width: 100%;
     padding: 30px;
+}
+.VG-footer{
+    background-color: rgb(43,43,43,1);
+    /*background-color: rgb(182, 227, 255);farge i footer*/
+    width: 100%;
+    padding: 30px;
+    color:#f0f0f0;
 }
 
 
