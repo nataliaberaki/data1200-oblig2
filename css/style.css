@@ -92,13 +92,16 @@ li{
 
 #author-name {
     font-weight: bold;
-    color: red;
+    color: rgb(190, 25, 25);
+    width: 75%;
 }
 
 #dato-informasjon{
     font-size: small;
     color: #666;
     padding-bottom: 10px;
+    width: 75%;
+    padding-bottom: 50px;
 }
 
 .article-container { /* Denne lager en container for artikkelen*/
@@ -204,5 +207,12 @@ footer{
 }
 .advertisement a:hover{
     color:#ba0a13;
+}
+
+.kilde{
+    color: black;
+}
+.kilde-vg{
+    color: whitesmoke;
 }
 
