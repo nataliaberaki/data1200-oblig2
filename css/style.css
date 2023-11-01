@@ -138,11 +138,15 @@ li{
 }
 
 
-.grid-container { /* grid for innhold i artikkelen */
-    display: grid;
-    grid-template-columns: 1fr; /* gjør sånn at det bare er en kolonne */
-    grid-gap: 20px;
+.flex-container { /* flex for innhold i artikkelen */
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    grid-gap: 20px;
+}
+
+.flex-container h1, h2 {
+    width: 75%;
 }
 
 .image-description{
@@ -164,26 +168,23 @@ li{
 }
 
 
-
 footer{
     background-color: rgb(255, 136, 0);
     /*background-color: rgb(182, 227, 255);farge i footer*/
     width: 100%;
     padding: 30px;
 }
+
 .VG-footer{
     background-color: rgb(43,43,43,1);
     /*background-color: rgb(182, 227, 255);farge i footer*/
     width: 100%;
     padding: 30px;
     color:#f0f0f0;
+    line-height: 1;
 }
 
 
-.footer{
-line-height: 1.5; /*stor avstand mellom <p> i footer er ikke nødvendig*/
-
-}
 .advertisement {
     position: fixed;/*posisjonen til divboksen holder seg på siden av skjermen*/
     top: 50%; /* avstand på toppen */
