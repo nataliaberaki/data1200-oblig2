@@ -187,7 +187,8 @@ footer{
     line-height: 1;
 }
 
-.accessibility {
+.accessibility img {
+    padding-top: 10%;
     width: 70%;
 }
 
