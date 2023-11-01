@@ -187,6 +187,10 @@ footer{
     line-height: 1;
 }
 
+.accessibility {
+    width: 70%;
+}
+
 
 .advertisement {
     position: fixed;/*posisjonen til divboksen holder seg på siden av skjermen*/
