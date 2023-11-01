@@ -76,6 +76,7 @@ main{
 h1{
     line-height: 2;
     padding-top: 40px;
+    font-size: 50px;
 }
 h2{
     line-height: 2;
@@ -111,7 +112,6 @@ li{
 }
 
 .article-title {
-    font-size: 30px;
     margin-bottom: 10px;
 }
 
